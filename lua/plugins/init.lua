@@ -63,7 +63,7 @@ return {
   },
 
   {
-    "nvim-neorg/neorg",
+    "nvim-neorg/neorg", -- Run `nix-shell -p gcc --run "nvim -c \"TSInstall norg\""` once to install the tree-sitter module
     lazy = false,
     version = "*",
     config = function()
