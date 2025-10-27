@@ -52,4 +52,13 @@ return {
 		}
     end
   },
+
+  {
+    "3rd/image.nvim",
+    lazy = false;
+    build = false,
+    opts = {
+      processor = "magick_cli",
+    }
+  },
 }
